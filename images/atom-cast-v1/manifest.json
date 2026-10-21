@@ -1,0 +1,886 @@
+{
+  "id": "atom-cast-v1",
+  "version": 1,
+  "frameSize": {
+    "width": 256,
+    "height": 256
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "bodyCircle": {
+    "x": 128,
+    "y": 128,
+    "radius": 104,
+    "diameter": 208
+  },
+  "displaySizeFor68pxBody": 83.6923076923077,
+  "poses": [
+    "forward",
+    "glance",
+    "blink"
+  ],
+  "states": [
+    "single",
+    "double"
+  ],
+  "colours": [
+    "yellow",
+    "red",
+    "blue",
+    "green",
+    "pink"
+  ],
+  "frames": [
+    {
+      "id": "yellow-single-forward",
+      "colour": "yellow",
+      "state": "single",
+      "pose": "forward",
+      "file": "yellow-single-forward.webp",
+      "url": "images/atom-cast-v1/yellow-single-forward.webp",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        271.5,
+        257.0,
+        214.348,
+        208.387
+      ],
+      "visible": {
+        "x": 0,
+        "y": 0,
+        "width": 245,
+        "height": 239
+      },
+      "sha256": "221151b8cde427f96b4b19e3fbef6ac3b23254be70de833f6a4ea853a9a20aec",
+      "bytes": 74761
+    },
+    {
+      "id": "yellow-single-glance",
+      "colour": "yellow",
+      "state": "single",
+      "pose": "glance",
+      "file": "yellow-single-glance.webp",
+      "url": "images/atom-cast-v1/yellow-single-glance.webp",
+      "sourceCell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        254.0,
+        257.5,
+        213.467,
+        208.111
+      ],
+      "visible": {
+        "x": 4,
+        "y": 0,
+        "width": 250,
+        "height": 239
+      },
+      "sha256": "ac805ff4d26e6012caeeba9d27fe41b74239e517fd2106fd3010898bf4f26e1a",
+      "bytes": 74201
+    },
+    {
+      "id": "yellow-single-blink",
+      "colour": "yellow",
+      "state": "single",
+      "pose": "blink",
+      "file": "yellow-single-blink.webp",
+      "url": "images/atom-cast-v1/yellow-single-blink.webp",
+      "sourceCell": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        235.5,
+        257.0,
+        213.354,
+        208.5
+      ],
+      "visible": {
+        "x": 13,
+        "y": 1,
+        "width": 236,
+        "height": 238
+      },
+      "sha256": "f060e3e393e85ed6841038e7697a7538724561b58f9704436ca05a92bbbb8265",
+      "bytes": 72330
+    },
+    {
+      "id": "yellow-double-forward",
+      "colour": "yellow",
+      "state": "double",
+      "pose": "forward",
+      "file": "yellow-double-forward.webp",
+      "url": "images/atom-cast-v1/yellow-double-forward.webp",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        272.0,
+        227.5,
+        213.851,
+        203.0
+      ],
+      "visible": {
+        "x": 0,
+        "y": 11,
+        "width": 245,
+        "height": 245
+      },
+      "sha256": "d5a3c430aedecc309b10d50948e95440c8a03a7e2cd58ccc457280e200c804d0",
+      "bytes": 113877
+    },
+    {
+      "id": "yellow-double-glance",
+      "colour": "yellow",
+      "state": "double",
+      "pose": "glance",
+      "file": "yellow-double-glance.webp",
+      "url": "images/atom-cast-v1/yellow-double-glance.webp",
+      "sourceCell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        257.5,
+        228.0,
+        210.545,
+        202.924
+      ],
+      "visible": {
+        "x": 1,
+        "y": 11,
+        "width": 253,
+        "height": 245
+      },
+      "sha256": "56db001ffe32852c90c33b3234a69b23efdf3ef64e3faef799616c30543f40f8",
+      "bytes": 114859
+    },
+    {
+      "id": "yellow-double-blink",
+      "colour": "yellow",
+      "state": "double",
+      "pose": "blink",
+      "file": "yellow-double-blink.webp",
+      "url": "images/atom-cast-v1/yellow-double-blink.webp",
+      "sourceCell": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        244.0,
+        227.5,
+        213.851,
+        202.763
+      ],
+      "visible": {
+        "x": 9,
+        "y": 11,
+        "width": 247,
+        "height": 245
+      },
+      "sha256": "96c2ec1165d28b1a86c4db1e6df811749a1635efec44e727713d61a50fed958c",
+      "bytes": 111231
+    },
+    {
+      "id": "red-single-forward",
+      "colour": "red",
+      "state": "single",
+      "pose": "forward",
+      "file": "red-single-forward.webp",
+      "url": "images/atom-cast-v1/red-single-forward.webp",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        271.5,
+        252.0,
+        215.342,
+        210.5
+      ],
+      "visible": {
+        "x": 13,
+        "y": 16,
+        "width": 226,
+        "height": 225
+      },
+      "sha256": "dfbc631d14cc30f72caf6a8cf13298aa991e704a47b2bbadb73d9911e71e9027",
+      "bytes": 80252
+    },
+    {
+      "id": "red-single-glance",
+      "colour": "red",
+      "state": "single",
+      "pose": "glance",
+      "file": "red-single-glance.webp",
+      "url": "images/atom-cast-v1/red-single-glance.webp",
+      "sourceCell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        254.5,
+        252.0,
+        215.0,
+        210.545
+      ],
+      "visible": {
+        "x": 8,
+        "y": 10,
+        "width": 245,
+        "height": 231
+      },
+      "sha256": "8924768e4f828bd59289abe19240bc47a09ec07cc2e6ec102c8e0d387609712f",
+      "bytes": 79790
+    },
+    {
+      "id": "red-single-blink",
+      "colour": "red",
+      "state": "single",
+      "pose": "blink",
+      "file": "red-single-blink.webp",
+      "url": "images/atom-cast-v1/red-single-blink.webp",
+      "sourceCell": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        238.0,
+        252.0,
+        215.5,
+        210.5
+      ],
+      "visible": {
+        "x": 20,
+        "y": 13,
+        "width": 226,
+        "height": 228
+      },
+      "sha256": "c091d51f02ed735061b74c4850638add82756e21f3dd15f129e352c4fe7cc7b1",
+      "bytes": 77750
+    },
+    {
+      "id": "red-double-forward",
+      "colour": "red",
+      "state": "double",
+      "pose": "forward",
+      "file": "red-double-forward.webp",
+      "url": "images/atom-cast-v1/red-double-forward.webp",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        272.5,
+        223.5,
+        213.954,
+        207.89
+      ],
+      "visible": {
+        "x": 0,
+        "y": 16,
+        "width": 244,
+        "height": 240
+      },
+      "sha256": "1275ec8472b094e1a1f6ebd842f8c4c8d10bcdae5545e8c84303adf640974266",
+      "bytes": 111402
+    },
+    {
+      "id": "red-double-glance",
+      "colour": "red",
+      "state": "double",
+      "pose": "glance",
+      "file": "red-double-glance.webp",
+      "url": "images/atom-cast-v1/red-double-glance.webp",
+      "sourceCell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        257.0,
+        223.5,
+        211.864,
+        207.89
+      ],
+      "visible": {
+        "x": 2,
+        "y": 16,
+        "width": 251,
+        "height": 240
+      },
+      "sha256": "5f4ec5f625f8b3bbdf2b44e6ce87442ec66dc470086a2df62f75dad49d1d5473",
+      "bytes": 110357
+    },
+    {
+      "id": "red-double-blink",
+      "colour": "red",
+      "state": "double",
+      "pose": "blink",
+      "file": "red-double-blink.webp",
+      "url": "images/atom-cast-v1/red-double-blink.webp",
+      "sourceCell": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        245.5,
+        223.0,
+        218.82,
+        207.89
+      ],
+      "visible": {
+        "x": 11,
+        "y": 16,
+        "width": 238,
+        "height": 240
+      },
+      "sha256": "e8f56fd8e75d7b116b6c5c3f854f4cb96d7af062c90a0ebb023562551b84ce77",
+      "bytes": 109026
+    },
+    {
+      "id": "blue-single-forward",
+      "colour": "blue",
+      "state": "single",
+      "pose": "forward",
+      "file": "blue-single-forward.webp",
+      "url": "images/atom-cast-v1/blue-single-forward.webp",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        268.5,
+        258.0,
+        222.299,
+        213.5
+      ],
+      "visible": {
+        "x": 2,
+        "y": 2,
+        "width": 240,
+        "height": 234
+      },
+      "sha256": "347c95c52adb78056a8e43a7d5352a11354a030a967fc87d8dde3098bb012057",
+      "bytes": 76905
+    },
+    {
+      "id": "blue-single-glance",
+      "colour": "blue",
+      "state": "single",
+      "pose": "glance",
+      "file": "blue-single-glance.webp",
+      "url": "images/atom-cast-v1/blue-single-glance.webp",
+      "sourceCell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        256.5,
+        258.5,
+        221.305,
+        213.354
+      ],
+      "visible": {
+        "x": 7,
+        "y": 2,
+        "width": 241,
+        "height": 234
+      },
+      "sha256": "bf6cd17b9ce2bf9904977b3aa7f152faf74ddfcd2e6cbca53bff329cecddb8d0",
+      "bytes": 75970
+    },
+    {
+      "id": "blue-single-blink",
+      "colour": "blue",
+      "state": "single",
+      "pose": "blink",
+      "file": "blue-single-blink.webp",
+      "url": "images/atom-cast-v1/blue-single-blink.webp",
+      "sourceCell": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        240.5,
+        258.0,
+        222.245,
+        213.851
+      ],
+      "visible": {
+        "x": 15,
+        "y": 3,
+        "width": 234,
+        "height": 233
+      },
+      "sha256": "76f526439699545815a55656a6cb66829d72ad7748941d7cfec3d43bf4b6b68f",
+      "bytes": 74477
+    },
+    {
+      "id": "blue-double-forward",
+      "colour": "blue",
+      "state": "double",
+      "pose": "forward",
+      "file": "blue-double-forward.webp",
+      "url": "images/atom-cast-v1/blue-double-forward.webp",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        273.5,
+        229.0,
+        218.82,
+        208.5
+      ],
+      "visible": {
+        "x": 2,
+        "y": 14,
+        "width": 239,
+        "height": 242
+      },
+      "sha256": "907f0b5f8b573b8a533feb617ab446e5ff4bc423a2470c10c75b815e4010c617",
+      "bytes": 105754
+    },
+    {
+      "id": "blue-double-glance",
+      "colour": "blue",
+      "state": "double",
+      "pose": "glance",
+      "file": "blue-double-glance.webp",
+      "url": "images/atom-cast-v1/blue-double-glance.webp",
+      "sourceCell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        260.5,
+        229.0,
+        218.82,
+        207.89
+      ],
+      "visible": {
+        "x": 4,
+        "y": 13,
+        "width": 244,
+        "height": 243
+      },
+      "sha256": "d7120137d8d7d00819e883ab9b70bc0e43aab00dba822bd225e5d947682b7574",
+      "bytes": 107172
+    },
+    {
+      "id": "blue-double-blink",
+      "colour": "blue",
+      "state": "double",
+      "pose": "blink",
+      "file": "blue-double-blink.webp",
+      "url": "images/atom-cast-v1/blue-double-blink.webp",
+      "sourceCell": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        249.5,
+        228.5,
+        217.826,
+        208.387
+      ],
+      "visible": {
+        "x": 9,
+        "y": 14,
+        "width": 244,
+        "height": 242
+      },
+      "sha256": "532ab3e44f68e5c75a643c6037c9c9440f83058e7bb2d7ae80c520c3388fca7e",
+      "bytes": 104061
+    },
+    {
+      "id": "green-single-forward",
+      "colour": "green",
+      "state": "single",
+      "pose": "forward",
+      "file": "green-single-forward.webp",
+      "url": "images/atom-cast-v1/green-single-forward.webp",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        275.0,
+        258.0,
+        216.391,
+        208.387
+      ],
+      "visible": {
+        "x": 20,
+        "y": 22,
+        "width": 215,
+        "height": 217
+      },
+      "sha256": "2b9fe4de2147affd3fb4f797053309442f1c3c97f5029dc97e03e6c537e963af",
+      "bytes": 83544
+    },
+    {
+      "id": "green-single-glance",
+      "colour": "green",
+      "state": "single",
+      "pose": "glance",
+      "file": "green-single-glance.webp",
+      "url": "images/atom-cast-v1/green-single-glance.webp",
+      "sourceCell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        255.5,
+        257.5,
+        215.0,
+        208.387
+      ],
+      "visible": {
+        "x": 9,
+        "y": 23,
+        "width": 234,
+        "height": 216
+      },
+      "sha256": "95eeebcc5dbb19374f07f41273fecd92f8af61e24df327e17194a2834eabafbe",
+      "bytes": 82774
+    },
+    {
+      "id": "green-single-blink",
+      "colour": "green",
+      "state": "single",
+      "pose": "blink",
+      "file": "green-single-blink.webp",
+      "url": "images/atom-cast-v1/green-single-blink.webp",
+      "sourceCell": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        236.5,
+        257.5,
+        216.0,
+        208.387
+      ],
+      "visible": {
+        "x": 15,
+        "y": 23,
+        "width": 222,
+        "height": 216
+      },
+      "sha256": "eb758ce3613a9a750825581e3958aed346aeb8f464d16fa0f4b1ed34a853d66b",
+      "bytes": 80900
+    },
+    {
+      "id": "green-double-forward",
+      "colour": "green",
+      "state": "double",
+      "pose": "forward",
+      "file": "green-double-forward.webp",
+      "url": "images/atom-cast-v1/green-double-forward.webp",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        273.5,
+        229.0,
+        216.335,
+        205.0
+      ],
+      "visible": {
+        "x": 0,
+        "y": 12,
+        "width": 243,
+        "height": 244
+      },
+      "sha256": "1ed55efc2e3a98d46969be3169dc6401352e71428f72ddade0431c81f6acbcd4",
+      "bytes": 121179
+    },
+    {
+      "id": "green-double-glance",
+      "colour": "green",
+      "state": "double",
+      "pose": "glance",
+      "file": "green-double-glance.webp",
+      "url": "images/atom-cast-v1/green-double-glance.webp",
+      "sourceCell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        260.5,
+        229.0,
+        214.441,
+        204.91
+      ],
+      "visible": {
+        "x": 2,
+        "y": 12,
+        "width": 248,
+        "height": 244
+      },
+      "sha256": "2a2adfd9f5384e03be4692b642fcfa4912ea56c9012b9aa993e3a95f746edf64",
+      "bytes": 121972
+    },
+    {
+      "id": "green-double-blink",
+      "colour": "green",
+      "state": "double",
+      "pose": "blink",
+      "file": "green-double-blink.webp",
+      "url": "images/atom-cast-v1/green-double-blink.webp",
+      "sourceCell": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        247.5,
+        228.5,
+        213.5,
+        204.414
+      ],
+      "visible": {
+        "x": 7,
+        "y": 12,
+        "width": 249,
+        "height": 244
+      },
+      "sha256": "aad82aaf5404c15659abc438c4f1ecc4e1da281b31deaade54e0e4c60754b9fb",
+      "bytes": 119975
+    },
+    {
+      "id": "pink-single-forward",
+      "colour": "pink",
+      "state": "single",
+      "pose": "forward",
+      "file": "pink-single-forward.webp",
+      "url": "images/atom-cast-v1/pink-single-forward.webp",
+      "sourceCell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        259.0,
+        267.5,
+        220.5,
+        216.335
+      ],
+      "visible": {
+        "x": 7,
+        "y": 7,
+        "width": 240,
+        "height": 223
+      },
+      "sha256": "7a2ec50b4da7a0c2f12dc1101b22cb64e4fd0bdf4fd5fb12dc42e0226a68abd5",
+      "bytes": 85395
+    },
+    {
+      "id": "pink-single-glance",
+      "colour": "pink",
+      "state": "single",
+      "pose": "glance",
+      "file": "pink-single-glance.webp",
+      "url": "images/atom-cast-v1/pink-single-glance.webp",
+      "sourceCell": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        257.0,
+        267.5,
+        220.5,
+        216.335
+      ],
+      "visible": {
+        "x": 11,
+        "y": 6,
+        "width": 237,
+        "height": 224
+      },
+      "sha256": "29b771b33464e82e995550374ff4e78ac22e1da74269f3e31a22263b1a69bbf9",
+      "bytes": 85608
+    },
+    {
+      "id": "pink-single-blink",
+      "colour": "pink",
+      "state": "single",
+      "pose": "blink",
+      "file": "pink-single-blink.webp",
+      "url": "images/atom-cast-v1/pink-single-blink.webp",
+      "sourceCell": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        254.5,
+        266.5,
+        221.0,
+        217.0
+      ],
+      "visible": {
+        "x": 8,
+        "y": 5,
+        "width": 241,
+        "height": 225
+      },
+      "sha256": "068f716fe11121a53e8c202af56a2abee28235c88d5bba22e5aa49b249928e97",
+      "bytes": 83107
+    },
+    {
+      "id": "pink-double-forward",
+      "colour": "pink",
+      "state": "double",
+      "pose": "forward",
+      "file": "pink-double-forward.webp",
+      "url": "images/atom-cast-v1/pink-double-forward.webp",
+      "sourceCell": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        260.0,
+        245.5,
+        211,
+        209
+      ],
+      "visible": {
+        "x": 0,
+        "y": 6,
+        "width": 252,
+        "height": 250
+      },
+      "sha256": "2e017dbf189965225765eee7f0535bf61a691681c880a7de0369b5631ff97aa3",
+      "bytes": 132975
+    },
+    {
+      "id": "pink-double-glance",
+      "colour": "pink",
+      "state": "double",
+      "pose": "glance",
+      "file": "pink-double-glance.webp",
+      "url": "images/atom-cast-v1/pink-double-glance.webp",
+      "sourceCell": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        257.5,
+        245.0,
+        211,
+        209
+      ],
+      "visible": {
+        "x": 1,
+        "y": 6,
+        "width": 252,
+        "height": 250
+      },
+      "sha256": "1f06b89de3037d4132bcf275fba353c5d5802ae5486c7d70c60492a375ae8d42",
+      "bytes": 133212
+    },
+    {
+      "id": "pink-double-blink",
+      "colour": "pink",
+      "state": "double",
+      "pose": "blink",
+      "file": "pink-double-blink.webp",
+      "url": "images/atom-cast-v1/pink-double-blink.webp",
+      "sourceCell": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "sourceBodyEllipse": [
+        258.0,
+        246.0,
+        211,
+        209
+      ],
+      "visible": {
+        "x": 1,
+        "y": 6,
+        "width": 252,
+        "height": 250
+      },
+      "sha256": "5617ae2d38996783096e2d4d16f294f4811b5dbabccda91b3c69367fe8423bb6",
+      "bytes": 129138
+    }
+  ],
+  "timing": {
+    "blinkClosedMs": 105,
+    "blinkIntervalMs": [
+      3000,
+      4000
+    ],
+    "glanceMs": 420,
+    "note": "Stagger per atom; face upright; cosmetic sprite only, never body transform."
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "id": "atomic-audio-v3",
+  "created": "2026-10-20",
+  "provenance": "Original offline DSP composition by Codex for Atom Smash; no third-party samples or models. Source render.py and PCM masters outside public.",
+  "sampleRate": 44100,
+  "channels": 2,
+  "cues": [
+    {
+      "id": "cascade-light",
+      "durationMs": 230,
+      "peakDb": -6.24,
+      "rmsDb": -20.44,
+      "files": [
+        {
+          "file": "cascade-light.ogg",
+          "bytes": 5531,
+          "sha256": "1b26f6d14451e3b35dab8a7264016d08e6dcb2fddbce72c333f3e2cc0019aad9"
+        },
+        {
+          "file": "cascade-light.m4a",
+          "bytes": 4926,
+          "sha256": "bc3a487d925d75d5e251c47f1bfa579710a955d95569d5115f43324c69fb92e3"
+        }
+      ]
+    },
+    {
+      "id": "cascade-mid",
+      "durationMs": 310,
+      "peakDb": -4.55,
+      "rmsDb": -18.13,
+      "files": [
+        {
+          "file": "cascade-mid.ogg",
+          "bytes": 6594,
+          "sha256": "afee46e9f8af8eb16e709b1ac4ff8637a3b5e23a3491fdcab3e235c65ba04ad2"
+        },
+        {
+          "file": "cascade-mid.m4a",
+          "bytes": 6287,
+          "sha256": "35bfda9a71876ca5fb264fb8da85a7e76c044ec216f2d01ff8f74de615f92e7b"
+        }
+      ]
+    },
+    {
+      "id": "cascade-heavy",
+      "durationMs": 400,
+      "peakDb": -3.41,
+      "rmsDb": -17.08,
+      "files": [
+        {
+          "file": "cascade-heavy.ogg",
+          "bytes": 6991,
+          "sha256": "dfaba7d02934812ffb09b102c7fe9bf75669e71afd983a59ae9c370f7d582022"
+        },
+        {
+          "file": "cascade-heavy.m4a",
+          "bytes": 7173,
+          "sha256": "278c65eabe296401367f3ec144272af84241a463d97b58356cd5cffebdb9766d"
+        }
+      ]
+    },
+    {
+      "id": "cascade-mega",
+      "durationMs": 540,
+      "peakDb": -2.5,
+      "rmsDb": -16.6,
+      "files": [
+        {
+          "file": "cascade-mega.ogg",
+          "bytes": 9581,
+          "sha256": "d24e88dd6d1c8225285b3fd23eccde831e418477d305d327fccfa963c7137558"
+        },
+        {
+          "file": "cascade-mega.m4a",
+          "bytes": 7804,
+          "sha256": "533b6fcbf37676da149d36cec39a60a5009b5ab1924478a611afc284b481f30c"
+        }
+      ]
+    },
+    {
+      "id": "face-in",
+      "durationMs": 380,
+      "peakDb": -3.41,
+      "rmsDb": -16.58,
+      "files": [
+        {
+          "file": "face-in.ogg",
+          "bytes": 7313,
+          "sha256": "d61ba1daef1051c77cd483f8888461ce71a0599f17d1fee35e8a42cd88a2f748"
+        },
+        {
+          "file": "face-in.m4a",
+          "bytes": 6915,
+          "sha256": "da2454ba3ffb8d0613a9d7de89c229de90819d08874bd3dc2a0a56acfe0d5852"
+        }
+      ]
+    },
+    {
+      "id": "blast-slam",
+      "durationMs": 670,
+      "peakDb": -2.5,
+      "rmsDb": -16.0,
+      "files": [
+        {
+          "file": "blast-slam.ogg",
+          "bytes": 14278,
+          "sha256": "db0d3438465890e24efae7caedac56b1dd063a47e33c0bbb38a4bee7cae50f36"
+        },
+        {
+          "file": "blast-slam.m4a",
+          "bytes": 9229,
+          "sha256": "5af155865d3007f94860b766a6241a7ae30aca37b3c64203df581a37baf23f3b"
+        }
+      ]
+    },
+    {
+      "id": "chain-finish",
+      "durationMs": 630,
+      "peakDb": -2.85,
+      "rmsDb": -18.58,
+      "files": [
+        {
+          "file": "chain-finish.ogg",
+          "bytes": 14054,
+          "sha256": "cd103170276a437c8e129e51fcf29aa5158d48df5deff6759663b3f015ce4bf2"
+        },
+        {
+          "file": "chain-finish.m4a",
+          "bytes": 9674,
+          "sha256": "1585ff75b1d4bc1b6535cea3cc9bbfe9c2baae6f9394c4fba8532fccf2a94083"
+        }
+      ]
+    },
+    {
+      "id": "dust-out",
+      "durationMs": 400,
+      "peakDb": -5.6,
+      "rmsDb": -25.49,
+      "files": [
+        {
+          "file": "dust-out.ogg",
+          "bytes": 9361,
+          "sha256": "052a57a0b270810b54f64f1627b5f76b17845621883920cdd7f0d778c78d996d"
+        },
+        {
+          "file": "dust-out.m4a",
+          "bytes": 6836,
+          "sha256": "f97dcb44236638cb90a154ee07fefaef1d1ae1c5677031e335db5c9cd3923d55"
+        }
+      ]
+    },
+    {
+      "id": "kerching",
+      "durationMs": 860,
+      "peakDb": -4.66,
+      "rmsDb": -23.21,
+      "files": [
+        {
+          "file": "kerching.ogg",
+          "bytes": 19414,
+          "sha256": "23e79b94e5cdcf84f0ea09009ddd225ec9d4fb97129805a789a312a922c28df5"
+        },
+        {
+          "file": "kerching.m4a",
+          "bytes": 13524,
+          "sha256": "3955e6817b0c4ad795f4a9f2537e8ba0a0980053f5d202d49f2af2532369446b"
+        }
+      ]
+    },
+    {
+      "id": "cascade-rise",
+      "durationMs": 860,
+      "peakDb": -4.88,
+      "rmsDb": -18.6,
+      "files": [
+        {
+          "file": "cascade-rise.ogg",
+          "bytes": 13675,
+          "sha256": "d20c63150c6056be27bafc8d939a824f5a6e4198fefec05aff7823c623814032"
+        },
+        {
+          "file": "cascade-rise.m4a",
+          "bytes": 14866,
+          "sha256": "3e7d7a53f400774201fb0b9b7355d818c66f8ac81ab87c4dbb222657b82b7180"
+        }
+      ]
+    },
+    {
+      "id": "cascade-drive",
+      "durationMs": 460,
+      "peakDb": -4.44,
+      "rmsDb": -19.32,
+      "files": [
+        {
+          "file": "cascade-drive.ogg",
+          "bytes": 12663,
+          "sha256": "689b9e0e634b2b0a095cc4198d2e8430ee0f8d35f4a8a3260ce5ac6cfe605cd6"
+        },
+        {
+          "file": "cascade-drive.m4a",
+          "bytes": 8619,
+          "sha256": "02358db153be49e2e1dd5ce56c90d5639ed1165892c417bc17b18ec5f1c2e5b2"
+        }
+      ]
+    },
+    {
+      "id": "cascade-payoff",
+      "durationMs": 980,
+      "peakDb": -2.94,
+      "rmsDb": -20.68,
+      "files": [
+        {
+          "file": "cascade-payoff.ogg",
+          "bytes": 18430,
+          "sha256": "7634def9c67677a4f0a76f3850dadab350e2b0afc14988c61226fce68b4fa086"
+        },
+        {
+          "file": "cascade-payoff.m4a",
+          "bytes": 13843,
+          "sha256": "c3568c616743bfc2b0443e2c01e2c3c7bc01453b0f7f19d4d851b648b1696fb1"
+        }
+      ]
+    },
+    {
+      "id": "cascade-step",
+      "durationMs": 270,
+      "peakDb": -4.12,
+      "rmsDb": -15.99,
+      "files": [
+        {
+          "file": "cascade-step.ogg",
+          "bytes": 7378,
+          "sha256": "6c0274e80bf613800b743665a373cde19eaddcce6e1745c8f516825bb7482c38"
+        },
+        {
+          "file": "cascade-step.m4a",
+          "bytes": 5492,
+          "sha256": "92160464f68e91e03089775c5c724a932aa2eac5b60c57da0320ee280252aad1"
+        }
+      ]
+    }
+  ],
+  "revision": "REQ-ATOM-07: actual staged pops with rising pitched step and terminal release"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "atomic-smash-v2",
+  "frameSize": {
+    "width": 512,
+    "height": 512
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "recommendedDisplaySize": 400,
+  "bodyApproxDiameter": 360,
+  "note": "Celebration portrait only; no physics collider. Entire source scaled into448px square inside512px,32px transparent margin; no artwork redrawn.",
+  "frames": [
+    {
+      "colour": "yellow",
+      "file": "yellow-super.webp",
+      "url": "images/atomic-smash-v2/yellow-super.webp",
+      "key": "atomic-yellow",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 32,
+        "y": 32,
+        "width": 437,
+        "height": 448
+      },
+      "sha256": "e7966052bf99eb63cc995d1680928564b85d2a2dcdf544ddef88206021850977",
+      "bytes": 277283
+    },
+    {
+      "colour": "red",
+      "file": "red-super.webp",
+      "url": "images/atomic-smash-v2/red-super.webp",
+      "key": "atomic-red",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 32,
+        "y": 32,
+        "width": 447,
+        "height": 448
+      },
+      "sha256": "e721f323cb6708623eb19c78c2b640890571a1af9ed186361b7ae4057fcc348c",
+      "bytes": 305333
+    },
+    {
+      "colour": "blue",
+      "file": "blue-super.webp",
+      "url": "images/atomic-smash-v2/blue-super.webp",
+      "key": "atomic-blue",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 32,
+        "y": 40,
+        "width": 444,
+        "height": 440
+      },
+      "sha256": "b58b507bf7527521b16cb3b0c2f4d3b128272db8684121e9ee35618638f98362",
+      "bytes": 296694
+    },
+    {
+      "colour": "green",
+      "file": "green-super.webp",
+      "url": "images/atomic-smash-v2/green-super.webp",
+      "key": "atomic-green",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 32,
+        "y": 32,
+        "width": 445,
+        "height": 442
+      },
+      "sha256": "0c106d3dabdd1311ab80de278afdd413a6698c8f4a955f77da528b4cd8d8b725",
+      "bytes": 318577
+    },
+    {
+      "colour": "pink",
+      "file": "pink-super.webp",
+      "url": "images/atomic-smash-v2/pink-super.webp",
+      "key": "atomic-pink",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 44,
+        "y": 38,
+        "width": 424,
+        "height": 436
+      },
+      "sha256": "0cd61a388957743ccf6fc627b4be211d4323ef7eed4d6de7463d222f6db766d5",
+      "bytes": 304200
+    }
+  ]
+}

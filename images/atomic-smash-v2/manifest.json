@@ -25,8 +25,8 @@
         "width": 437,
         "height": 448
       },
-      "sha256": "e7966052bf99eb63cc995d1680928564b85d2a2dcdf544ddef88206021850977",
-      "bytes": 277283
+      "sha256": "3eea7d605d549b0a8c5ba7adf9c8588a70dc4e0f517aeb8754f4c918597ff696",
+      "bytes": 214450
     },
     {
       "colour": "red",
@@ -41,8 +41,8 @@
         "width": 447,
         "height": 448
       },
-      "sha256": "e721f323cb6708623eb19c78c2b640890571a1af9ed186361b7ae4057fcc348c",
-      "bytes": 305333
+      "sha256": "97792a41698a96365061e6f314df0820de44e4475c705ff096402d4c05a0c75d",
+      "bytes": 222878
     },
     {
       "colour": "blue",
@@ -57,8 +57,8 @@
         "width": 444,
         "height": 440
       },
-      "sha256": "b58b507bf7527521b16cb3b0c2f4d3b128272db8684121e9ee35618638f98362",
-      "bytes": 296694
+      "sha256": "3a16a9fc46a8302e27c1d666a26c3555ac457fa9c7b0e0d7ce4e8b9d236c9eba",
+      "bytes": 232126
     },
     {
       "colour": "green",
@@ -73,8 +73,8 @@
         "width": 445,
         "height": 442
       },
-      "sha256": "0c106d3dabdd1311ab80de278afdd413a6698c8f4a955f77da528b4cd8d8b725",
-      "bytes": 318577
+      "sha256": "f1322419773e3a987bb7533b4be83f50a53ad7dcd044681ad51495732d8c083a",
+      "bytes": 239062
     },
     {
       "colour": "pink",
@@ -89,8 +89,41 @@
         "width": 424,
         "height": 436
       },
-      "sha256": "0cd61a388957743ccf6fc627b4be211d4323ef7eed4d6de7463d222f6db766d5",
-      "bytes": 304200
+      "sha256": "09dfa54607458b16f7a9ffe36c2ff8fdd184d881a8fb05c1314bf7088a94f0f8",
+      "bytes": 234974
+    },
+    {
+      "colour": "purple",
+      "file": "purple-super.webp",
+      "url": "images/atomic-smash-v2/purple-super.webp",
+      "key": "atomic-purple",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 33,
+        "y": 44,
+        "width": 445,
+        "height": 425
+      },
+      "sha256": "8c1704e125cd6736e052deda61d2a6abad28915ff5c899ddf4903393bdc03aac",
+      "bytes": 228244
+    },
+    {
+      "colour": "orange",
+      "file": "orange-super.webp",
+      "url": "images/atomic-smash-v2/orange-super.webp",
+      "key": "atomic-orange",
+      "width": 512,
+      "height": 512,
+      "visible": {
+        "x": 37,
+        "y": 38,
+        "width": 438,
+        "height": 438
+      },
+      "sha256": "a010a0a891c41df92e2359863cab694abd2dc92c5d580aac404e78d7fb41d898",
+      "bytes": 240834
     }
-  ]
+  ],
+  "version": 2
 }

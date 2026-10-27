@@ -9,10 +9,16 @@
     <link rel="canonical" href="https://snappyfoxgames.co.uk/" />
     <meta name="description" content="Atom Smash! — a Snappy Fox Games title." />
     <title>Atom Smash!</title>
-    <script type="module" crossorigin src="./assets/index-BCaiRSa_.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-gVkmQD0B.css">
+    <script type="module" crossorigin src="./assets/index-CUW64Rn1.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-oc306qG9.css">
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Inline splash paints before JS/CSS arrive — the portal build's first
+         frame is branded instead of a blank page while the SDK initialises. -->
+    <div id="root"><div style="position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:38px;background:linear-gradient(145deg,#282265,#60217e);font-family:system-ui,sans-serif">
+      <div style="font-size:clamp(30px,11vw,52px);white-space:nowrap;font-weight:900;letter-spacing:.06em;color:#70f2ff;text-shadow:0 4px 0 #163675,0 7px 0 #170e4a;transform:rotate(-3deg)">ATOM <span style="color:#ffe45d">SMASH!</span></div>
+      <div style="width:76px;height:76px;border:2px solid #b5f7ff88;border-radius:50%;animation:cgsplash 1.8s linear infinite;position:relative"><span style="position:absolute;inset:20px;border-radius:50%;background:#ffe36a;box-shadow:0 0 24px #ffe36a66"></span><span style="position:absolute;width:15px;height:15px;border-radius:50%;background:#6aeaff;left:30px;top:-9px"></span></div>
+      <style>@keyframes cgsplash{to{transform:rotate(360deg)}}</style>
+    </div></div>
   </body>
 </html>

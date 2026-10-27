@@ -78,6 +78,82 @@
         "x": 0.5,
         "y": 0.5
       }
+    },
+    {
+      "file": "gamma-burst.webp",
+      "width": 512,
+      "height": 472,
+      "bytes": 88722,
+      "sha256": "9e6f960ba49c95fbe3ebdb670792533038f837c6c8cefc1d325b3b71567f46ff",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 472
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "file": "proton-burst.webp",
+      "width": 512,
+      "height": 472,
+      "bytes": 98224,
+      "sha256": "5db212f806ce4aaacb74f9e53a763bf91cb3fca93e65d52e9fb2b858d29d0955",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 472
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "file": "neutron-burst.webp",
+      "width": 512,
+      "height": 464,
+      "bytes": 93380,
+      "sha256": "ee1e435a00cc22841b7529eedb5f4c8401271dc674c4131c482cbec89895a6ce",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 464
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "file": "nebula-burst.webp",
+      "width": 512,
+      "height": 473,
+      "bytes": 101824,
+      "sha256": "4a70b5af84b5e647ded8d1dd1b8d79e023c4b031a0e9fdce7d03f4b1d56a21ed",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 473
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
     }
   ],
   "cardZones": {

@@ -346,6 +346,15 @@
           "sha256": "a01b3f934d1bdcd92f5126f96ba59f96a68f8e7b85e13cd1d5caad8f85609cb3"
         }
       ]
+    },
+    {
+      "id": "munch",
+      "files": [
+        {
+          "file": "munch.m4a"
+        }
+      ],
+      "note": "Martin freesound munch \u2014 sequential slices per bite (munch.wav archive = mono 16k)"
     }
   ],
   "revision": "REQ-ATOM-07: actual staged pops with rising pitched step and terminal release"

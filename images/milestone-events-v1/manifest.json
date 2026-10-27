@@ -157,11 +157,35 @@
     },
     {
       "file": "quark.webp",
-      "width": 486,
+      "width": 512,
       "height": 512,
-      "bytes": 61184,
-      "sha256": "f7d5d81652135ab6506a0ab676a7169e7b60b977daaf8502127607ac10f9bdc9",
+      "bytes": 54136,
+      "sha256": "4480bfd592ab8ac3b66a1491f7900787594ebd7e922ab53bc2965f58a9d67ddb",
       "note": "QUARK pest hazard (Martin delivery 2026-10-27)"
+    },
+    {
+      "file": "quark-munch-front.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 73080,
+      "sha256": "2651011fe956d37b99f63c11230012a36821567a9ee0f8afcc18a8ac05da5e34",
+      "note": "Quark chomp pose (Codex delivery REQ-QUARK-MUNCH-01)"
+    },
+    {
+      "file": "quark-munch-left.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 69666,
+      "sha256": "2a2c6eaf38bc0de272323bd61973193e3c1d69d7b1f4e1f5de0d35b60d56b815",
+      "note": "Quark chomp pose (Codex delivery REQ-QUARK-MUNCH-01)"
+    },
+    {
+      "file": "quark-munch-right.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 70090,
+      "sha256": "1f11b0014d0d684e8a035f0ed609f342cfa8951599885bb5fdc71b3692a53011",
+      "note": "Quark chomp pose (Codex delivery REQ-QUARK-MUNCH-01)"
     }
   ],
   "cardZones": {

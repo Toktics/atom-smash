@@ -351,11 +351,14 @@
       "id": "munch",
       "files": [
         {
-          "file": "munch.m4a"
+          "file": "munch.m4a",
+          "bytes": 94363,
+          "sha256": "b98171a5f9700ad773633348c59996e4fc178009d6744653f0c446a0a724c913"
         }
       ],
-      "note": "Martin freesound munch \u2014 sequential slices per bite (munch.wav archive = mono 16k)"
+      "note": "Pixabay Content License (Martin-supplied). Sequential slices per bite."
     }
   ],
-  "revision": "REQ-ATOM-07: actual staged pops with rising pitched step and terminal release"
+  "revision": "REQ-ATOM-07: actual staged pops with rising pitched step and terminal release",
+  "attribution": "SFX incl. munch: Pixabay Content License (Martin-supplied). Music tipping-the-marble: Martin's own authored design."
 }

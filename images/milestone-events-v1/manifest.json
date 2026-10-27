@@ -154,6 +154,14 @@
         "x": 0.5,
         "y": 0.5
       }
+    },
+    {
+      "file": "quark.webp",
+      "width": 486,
+      "height": 512,
+      "bytes": 61184,
+      "sha256": "f7d5d81652135ab6506a0ab676a7169e7b60b977daaf8502127607ac10f9bdc9",
+      "note": "QUARK pest hazard (Martin delivery 2026-10-27)"
     }
   ],
   "cardZones": {

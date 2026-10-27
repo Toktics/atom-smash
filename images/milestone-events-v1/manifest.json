@@ -4,66 +4,17 @@
   "generator": "built-in image_gen",
   "assets": [
     {
-      "file": "milestone-plate.webp",
-      "width": 560,
-      "height": 440,
-      "bytes": 45806,
-      "sha256": "75195f1720e0082857515e92c4e4ba901ceb245cab5537154ff6d3a9811c6930",
+      "file": "quasar-v2.webp",
+      "width": 512,
+      "height": 473,
+      "bytes": 69638,
+      "sha256": "f7cf8b0b90f46f9bf7791742cd8dd132e74f0a369b2d235754aedbca853bccf9",
       "alphaBounds": {
         "0": {
-          "x": 5,
-          "y": 3,
-          "width": 550,
-          "height": 424,
-          "pixels": 226670
-        },
-        "16": {
-          "x": 8,
-          "y": 5,
-          "width": 545,
-          "height": 418,
-          "pixels": 223956
-        },
-        "128": {
-          "x": 9,
-          "y": 6,
-          "width": 543,
-          "height": 417,
-          "pixels": 223015
-        }
-      },
-      "pivot": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "file": "reactor-bonus-plate.webp",
-      "width": 560,
-      "height": 440,
-      "bytes": 48594,
-      "sha256": "9fd021e211593bb109955acf9232e83062c53199842b2bd06e7b013265721eba",
-      "alphaBounds": {
-        "0": {
-          "x": 5,
+          "x": 0,
           "y": 0,
-          "width": 550,
-          "height": 427,
-          "pixels": 227424
-        },
-        "16": {
-          "x": 7,
-          "y": 5,
-          "width": 546,
-          "height": 419,
-          "pixels": 224992
-        },
-        "128": {
-          "x": 8,
-          "y": 6,
-          "width": 544,
-          "height": 418,
-          "pixels": 223862
+          "width": 512,
+          "height": 473
         }
       },
       "pivot": {
@@ -72,32 +23,55 @@
       }
     },
     {
-      "file": "quasar.webp",
-      "width": 256,
-      "height": 256,
-      "bytes": 17900,
-      "sha256": "8058c93eca210ce09ae326092f2a966d569950f9d7a2e29561842caaccb38987",
+      "file": "milestone-crystal.webp",
+      "width": 960,
+      "height": 960,
+      "bytes": 216016,
+      "sha256": "ae23db65e3b8a9982d96e586547d4321048d6c3648342ebe263f2c1f2ab4c0fe",
       "alphaBounds": {
         "0": {
-          "x": 17,
-          "y": 19,
-          "width": 221,
-          "height": 221,
-          "pixels": 23036
-        },
-        "16": {
-          "x": 22,
-          "y": 48,
-          "width": 213,
-          "height": 158,
-          "pixels": 20885
-        },
-        "128": {
-          "x": 23,
-          "y": 53,
-          "width": 211,
-          "height": 149,
-          "pixels": 18842
+          "x": 0,
+          "y": 6,
+          "width": 956,
+          "height": 954
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "file": "traction-magnet.webp",
+      "width": 512,
+      "height": 430,
+      "bytes": 61550,
+      "sha256": "9cd3ad8cfa9a18a0e2a4d9675b1ccacccb6f80ad40391421dac43e05f6a8e1c7",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 430
+        }
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "file": "fission-core.webp",
+      "width": 512,
+      "height": 493,
+      "bytes": 86290,
+      "sha256": "f67066193d66264c1a76731adece54f9730801ddf7d43be03c299ce56e186683",
+      "alphaBounds": {
+        "0": {
+          "x": 0,
+          "y": 0,
+          "width": 512,
+          "height": 493
         }
       },
       "pivot": {
@@ -139,6 +113,8 @@
       0.5
     ],
     "fullTextureDisplayScale": "match sphere diameter, not full transparent texture width",
-    "staticReducedMotion": "same static sprite; no pulse or travelling row effect required"
-  }
+    "staticReducedMotion": "same static sprite; no pulse or travelling row effect required",
+    "file": "quasar-v2.webp"
+  },
+  "notes": "2026-10-27: quasar-v2 golden-orb art (Martin delivery), traction-magnet + fission-core bay icons (keyed alpha), milestone-crystal frame; v1 quasar + old plates retired from shipping."
 }

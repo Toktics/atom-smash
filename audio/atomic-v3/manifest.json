@@ -97,19 +97,19 @@
     },
     {
       "id": "blast-slam",
-      "durationMs": 670,
-      "peakDb": -2.5,
-      "rmsDb": -16.0,
+      "durationMs": 1300,
+      "peakDb": -5.0,
+      "rmsDb": -22.38,
       "files": [
         {
           "file": "blast-slam.ogg",
-          "bytes": 14278,
-          "sha256": "db0d3438465890e24efae7caedac56b1dd063a47e33c0bbb38a4bee7cae50f36"
+          "bytes": 20192,
+          "sha256": "b4360055b10e5a6df84846da9ce13809030a9fdc8b3926b7298d53d8881a2949"
         },
         {
           "file": "blast-slam.m4a",
-          "bytes": 9229,
-          "sha256": "5af155865d3007f94860b766a6241a7ae30aca37b3c64203df581a37baf23f3b"
+          "bytes": 14359,
+          "sha256": "d73ef9477b621885a9a39d35f76aa202fcb25484c04963b257c90dc344bcc16a"
         }
       ]
     },
@@ -169,55 +169,55 @@
     },
     {
       "id": "cascade-rise",
-      "durationMs": 860,
-      "peakDb": -4.88,
-      "rmsDb": -18.6,
+      "durationMs": 920,
+      "peakDb": -7.0,
+      "rmsDb": -19.65,
       "files": [
         {
           "file": "cascade-rise.ogg",
-          "bytes": 13675,
-          "sha256": "d20c63150c6056be27bafc8d939a824f5a6e4198fefec05aff7823c623814032"
+          "bytes": 16553,
+          "sha256": "6ad7433950f4de9ceeae2d0a8c6aba95d69fa4f78d26d709a221e8354741e9da"
         },
         {
           "file": "cascade-rise.m4a",
-          "bytes": 14866,
-          "sha256": "3e7d7a53f400774201fb0b9b7355d818c66f8ac81ab87c4dbb222657b82b7180"
+          "bytes": 12408,
+          "sha256": "cf30a30123346a788edfde5ae7fe37bdd0880dec39c0cd70c38b71a3c2c6df84"
         }
       ]
     },
     {
       "id": "cascade-drive",
-      "durationMs": 460,
-      "peakDb": -4.44,
-      "rmsDb": -19.32,
+      "durationMs": 620,
+      "peakDb": -7.0,
+      "rmsDb": -18.8,
       "files": [
         {
           "file": "cascade-drive.ogg",
-          "bytes": 12663,
-          "sha256": "689b9e0e634b2b0a095cc4198d2e8430ee0f8d35f4a8a3260ce5ac6cfe605cd6"
+          "bytes": 10875,
+          "sha256": "9923856f039cba21172f39c056d822c20625f94513c4b89268f6fe1161c03cd7"
         },
         {
           "file": "cascade-drive.m4a",
-          "bytes": 8619,
-          "sha256": "02358db153be49e2e1dd5ce56c90d5639ed1165892c417bc17b18ec5f1c2e5b2"
+          "bytes": 8952,
+          "sha256": "5847a95737a84c8779580b92c539eceb08ab53dba1de7205c229eec78538c9ac"
         }
       ]
     },
     {
       "id": "cascade-payoff",
-      "durationMs": 980,
-      "peakDb": -2.94,
-      "rmsDb": -20.68,
+      "durationMs": 1250,
+      "peakDb": -6.0,
+      "rmsDb": -22.88,
       "files": [
         {
           "file": "cascade-payoff.ogg",
-          "bytes": 18430,
-          "sha256": "7634def9c67677a4f0a76f3850dadab350e2b0afc14988c61226fce68b4fa086"
+          "bytes": 16495,
+          "sha256": "c47c6244b65624a36dcf141fdcbe1fcfa9a6ae8e635d0692527fe1dee7d66a2c"
         },
         {
           "file": "cascade-payoff.m4a",
-          "bytes": 13843,
-          "sha256": "c3568c616743bfc2b0443e2c01e2c3c7bc01453b0f7f19d4d851b648b1696fb1"
+          "bytes": 14685,
+          "sha256": "d7ae61dee54f653b645385d4868d7ef44b283573262442c551b95edc4204b4f7"
         }
       ]
     },
@@ -236,6 +236,114 @@
           "file": "cascade-step.m4a",
           "bytes": 5492,
           "sha256": "92160464f68e91e03089775c5c724a932aa2eac5b60c57da0320ee280252aad1"
+        }
+      ]
+    },
+    {
+      "id": "mission-victory",
+      "durationMs": 1650,
+      "peakDb": -6.0,
+      "rmsDb": -20.3,
+      "files": [
+        {
+          "file": "mission-victory.ogg",
+          "bytes": 32009,
+          "sha256": "00481a3220f18e406d1a59ac8e938d42c30d1fc9d8f5268f2916069e6d514813"
+        },
+        {
+          "file": "mission-victory.m4a",
+          "bytes": 20882,
+          "sha256": "4cdb6ab5031899383c668650e722e16d41feed3a4adfa165b9eebbc12fb83510"
+        }
+      ]
+    },
+    {
+      "id": "milestone-victory",
+      "durationMs": 2050,
+      "peakDb": -6.0,
+      "rmsDb": -22.0,
+      "files": [
+        {
+          "file": "milestone-victory.ogg",
+          "bytes": 35454,
+          "sha256": "a504054602f528fbcf160c091e6b7f00f5f005c19ad4ab853f235f039ff82126"
+        },
+        {
+          "file": "milestone-victory.m4a",
+          "bytes": 25122,
+          "sha256": "064e30d91a23e2558bbf790aeeeec19d2d781bedabd7a1fce47a21157d27f0c1"
+        }
+      ]
+    },
+    {
+      "id": "star-entry-1",
+      "durationMs": 430,
+      "peakDb": -10.0,
+      "rmsDb": -21.68,
+      "files": [
+        {
+          "file": "star-entry-1.ogg",
+          "bytes": 5500,
+          "sha256": "9074489bb33ad9484084f5cb7c80e2f77fe5722382391851ca621d8d952a74e1"
+        },
+        {
+          "file": "star-entry-1.m4a",
+          "bytes": 6565,
+          "sha256": "c613f933c565c1adf12fae0c99ebcb76750b141bac0315c35e71af5af28ba22d"
+        }
+      ]
+    },
+    {
+      "id": "star-entry-2",
+      "durationMs": 430,
+      "peakDb": -10.0,
+      "rmsDb": -22.0,
+      "files": [
+        {
+          "file": "star-entry-2.ogg",
+          "bytes": 5388,
+          "sha256": "2409a354fe1a5b7e40beb6806971e96196ee67bfcfa606dad3703f32671c9ca1"
+        },
+        {
+          "file": "star-entry-2.m4a",
+          "bytes": 6564,
+          "sha256": "fda50f35d8c3cf30ddc172cf8154b55a14eb777666faa315326e39aaa7906805"
+        }
+      ]
+    },
+    {
+      "id": "star-entry-3",
+      "durationMs": 430,
+      "peakDb": -10.0,
+      "rmsDb": -21.57,
+      "files": [
+        {
+          "file": "star-entry-3.ogg",
+          "bytes": 5553,
+          "sha256": "1d348f798252000c75e62436b9773a58215905362c9dc9a69a7b5d0fae3eff19"
+        },
+        {
+          "file": "star-entry-3.m4a",
+          "bytes": 6591,
+          "sha256": "35776de266e84a43f74c388cd1e67fcc411b3e0bcc2c04b364dda0bcafaee748"
+        }
+      ]
+    },
+    {
+      "id": "atom-arrival",
+      "durationMs": 1050,
+      "peakDb": -7.0,
+      "rmsDb": -18.77,
+      "files": [
+        {
+          "file": "atom-arrival.ogg",
+          "bytes": 18882,
+          "sha256": "35c7c92d9b760ad5871751393a73e302e912af73b158cb118196f7c37337ecdf"
+        },
+        {
+          "file": "atom-arrival.m4a",
+          "bytes": 14061,
+          "sha256": "a01b3f934d1bdcd92f5126f96ba59f96a68f8e7b85e13cd1d5caad8f85609cb3"
         }
       ]
     }

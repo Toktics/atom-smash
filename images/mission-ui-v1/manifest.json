@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "request": "REQ-ATOM-MISSION-UI-01",
+  "palette": {
+    "reactorPurpleDark": "#431978",
+    "reactorPurpleLight": "#60217e",
+    "containmentCyan": "#67edff",
+    "accentYellow": "#ffe15b",
+    "accentMagenta": "#a819b3",
+    "darkInterior": "#14082f"
+  },
+  "assets": [
+    {
+      "file": "mission-plate.webp",
+      "width": 560,
+      "height": 640,
+      "alpha": true,
+      "slot": "mission intro contract-card chrome",
+      "safeTextZone": { "x": 96, "y": 156, "width": 368, "height": 326 },
+      "emblemSocket": { "x": 219, "y": 8, "width": 122, "height": 122 }
+    },
+    {
+      "file": "tier-ignition.webp",
+      "width": 96,
+      "height": 96,
+      "alpha": true,
+      "slot": "Ignition tier badge"
+    },
+    {
+      "file": "tier-reactor.webp",
+      "width": 96,
+      "height": 96,
+      "alpha": true,
+      "slot": "Reactor tier badge"
+    },
+    {
+      "file": "tier-meltdown.webp",
+      "width": 96,
+      "height": 96,
+      "alpha": true,
+      "slot": "Meltdown tier badge"
+    },
+    {
+      "file": "obj-icons.webp",
+      "width": 384,
+      "height": 64,
+      "alpha": true,
+      "slot": "mission objective metric sprite strip",
+      "cellWidth": 64,
+      "cellHeight": 64,
+      "cells": [
+        { "index": 0, "metric": "merge", "x": 0, "y": 0 },
+        { "index": 1, "metric": "detonation", "x": 64, "y": 0 },
+        { "index": 2, "metric": "chain", "x": 128, "y": 0 },
+        { "index": 3, "metric": "atomic-blast", "x": 192, "y": 0 },
+        { "index": 4, "metric": "score", "x": 256, "y": 0 },
+        { "index": 5, "metric": "survive", "x": 320, "y": 0 }
+      ]
+    },
+    {
+      "file": "verdict-banner.webp",
+      "width": 480,
+      "height": 120,
+      "alpha": true,
+      "slot": "results mission-complete verdict chrome",
+      "safeTextZone": { "x": 82, "y": 31, "width": 316, "height": 58 }
+    }
+  ],
+  "notes": [
+    "All text is live DOM; no text is baked into these assets.",
+    "Objective strip order is fixed and uses six 64x64 cells.",
+    "Generated PNG masters and prompt records are stored outside public/."
+  ]
+}

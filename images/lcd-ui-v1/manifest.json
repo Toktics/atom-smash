@@ -1,0 +1,492 @@
+{
+  "id": "lcd-ui-v1",
+  "version": 2,
+  "request": "REQ-ATOM-PHASE1-UI-01",
+  "palette": {
+    "reactorPurpleDark": "#431978",
+    "reactorPurpleLight": "#60217e",
+    "containmentCyan": "#67edff",
+    "accentYellow": "#ffe15b",
+    "accentMagenta": "#a819b3",
+    "darkInterior": "#14082f"
+  },
+  "assets": [
+    {
+      "file": "bezel-portrait.webp",
+      "width": 720,
+      "height": 1280,
+      "alpha": true,
+      "bytes": 37446,
+      "sha256": "06573b09511315ab7a218c09d4e8c1465a6ea2c7b0d785541242b6f49c7e46d1",
+      "role": "quiet portrait chamber rim",
+      "transparentWindow": {
+        "x": 80,
+        "y": 89,
+        "width": 560,
+        "height": 1102
+      },
+      "oversizeAllowance": {
+        "scale": 1.07,
+        "sideIntrusionPx": 14,
+        "bottomIntrusionPx": 25
+      }
+    },
+    {
+      "file": "bezel-rails.webp",
+      "width": 160,
+      "height": 640,
+      "alpha": true,
+      "bytes": 12956,
+      "sha256": "ad5b7c470e9bbf9eca69b77c62b8bc8503617c135b616a8ccac846508130bc9a",
+      "role": "narrow-landscape side rails",
+      "cells": [
+        {
+          "index": 0,
+          "id": "left",
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 640
+        },
+        {
+          "index": 1,
+          "id": "right",
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "file": "bezel-corners.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "bytes": 9650,
+      "sha256": "e78aa3ae5bf3cc2ea74831c7a6d2ffd6eda90722d98acb58e390fff8bf8a2692",
+      "role": "smallest-state corner clamps",
+      "cellWidth": 128,
+      "cellHeight": 128,
+      "cells": [
+        {
+          "index": 0,
+          "id": "top-left",
+          "x": 0,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "index": 1,
+          "id": "top-right",
+          "x": 128,
+          "y": 0,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "index": 2,
+          "id": "bottom-left",
+          "x": 0,
+          "y": 128,
+          "width": 128,
+          "height": 128
+        },
+        {
+          "index": 3,
+          "id": "bottom-right",
+          "x": 128,
+          "y": 128,
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "file": "unlock-banner.webp",
+      "width": 720,
+      "height": 160,
+      "alpha": true,
+      "bytes": 7524,
+      "sha256": "39e88dc7a61f6a7324d2498dd57daefb639fd22c019313d8fb2c41e15db0f4b5",
+      "role": "unlock splash banner",
+      "safeTextZones": {
+        "headline": {
+          "x": 100,
+          "y": 28,
+          "width": 520,
+          "height": 54
+        },
+        "subline": {
+          "x": 130,
+          "y": 88,
+          "width": 460,
+          "height": 42
+        }
+      }
+    },
+    {
+      "file": "reveal-card.webp",
+      "width": 480,
+      "height": 560,
+      "alpha": true,
+      "bytes": 16852,
+      "sha256": "6952eab18686a3e638c7bf35f8806c37abce42c7abd5081b99799d0614327128",
+      "role": "reusable seven-atom unlock reveal card",
+      "atomSocket": {
+        "x": 112,
+        "y": 132,
+        "width": 256,
+        "height": 256
+      },
+      "castSourcePattern": "../atom-cast-v1/{colour}-single-forward.webp",
+      "colours": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "pink",
+        "purple",
+        "orange"
+      ],
+      "safeTextZones": {
+        "headline": {
+          "x": 72,
+          "y": 32,
+          "width": 336,
+          "height": 60
+        },
+        "name": {
+          "x": 76,
+          "y": 446,
+          "width": 328,
+          "height": 62
+        }
+      }
+    },
+    {
+      "file": "contract-popup.webp",
+      "width": 560,
+      "height": 440,
+      "alpha": true,
+      "bytes": 15160,
+      "sha256": "05753f4afde0d77244b23c0c5d1a43a3b4e3b9d98475f7dbe0c6095c1ec83933",
+      "role": "in-run mission-complete and next-contract beat",
+      "safeTextZones": {
+        "header": {
+          "x": 74,
+          "y": 30,
+          "width": 412,
+          "height": 54
+        },
+        "completedContract": {
+          "x": 62,
+          "y": 112,
+          "width": 436,
+          "height": 48
+        },
+        "nextTitle": {
+          "x": 62,
+          "y": 182,
+          "width": 436,
+          "height": 52
+        },
+        "objective": {
+          "x": 62,
+          "y": 246,
+          "width": 436,
+          "height": 82
+        },
+        "continue": {
+          "x": 176,
+          "y": 350,
+          "width": 208,
+          "height": 52
+        }
+      }
+    },
+    {
+      "file": "reactor-charge-plate.webp",
+      "width": 480,
+      "height": 160,
+      "alpha": true,
+      "bytes": 6250,
+      "sha256": "c1977753cac0347c02a3d67b560ce6a60f777e8aae892299af23c2e9f447fbf7",
+      "role": "compact inset inside contract card",
+      "safeTextZones": {
+        "label": {
+          "x": 82,
+          "y": 18,
+          "width": 316,
+          "height": 42
+        },
+        "todaysPerk": {
+          "x": 54,
+          "y": 78,
+          "width": 372,
+          "height": 56
+        }
+      }
+    },
+    {
+      "file": "streak-cells.webp",
+      "width": 336,
+      "height": 144,
+      "alpha": true,
+      "bytes": 11588,
+      "sha256": "ab89f2d9bb5181edf4236045698837ab07c92142b0dc2e29ad0c3cc9d9376350",
+      "role": "seven streak days by three states",
+      "cellWidth": 48,
+      "cellHeight": 48,
+      "rowOrder": [
+        "claimed",
+        "today",
+        "pending"
+      ],
+      "cells": [
+        {
+          "index": 0,
+          "day": 1,
+          "state": "claimed",
+          "x": 0,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 1,
+          "day": 2,
+          "state": "claimed",
+          "x": 48,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 2,
+          "day": 3,
+          "state": "claimed",
+          "x": 96,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 3,
+          "day": 4,
+          "state": "claimed",
+          "x": 144,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 4,
+          "day": 5,
+          "state": "claimed",
+          "x": 192,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 5,
+          "day": 6,
+          "state": "claimed",
+          "x": 240,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 6,
+          "day": 7,
+          "state": "claimed",
+          "x": 288,
+          "y": 0,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 7,
+          "day": 1,
+          "state": "today",
+          "x": 0,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 8,
+          "day": 2,
+          "state": "today",
+          "x": 48,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 9,
+          "day": 3,
+          "state": "today",
+          "x": 96,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 10,
+          "day": 4,
+          "state": "today",
+          "x": 144,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 11,
+          "day": 5,
+          "state": "today",
+          "x": 192,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 12,
+          "day": 6,
+          "state": "today",
+          "x": 240,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 13,
+          "day": 7,
+          "state": "today",
+          "x": 288,
+          "y": 48,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 14,
+          "day": 1,
+          "state": "pending",
+          "x": 0,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 15,
+          "day": 2,
+          "state": "pending",
+          "x": 48,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 16,
+          "day": 3,
+          "state": "pending",
+          "x": 96,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 17,
+          "day": 4,
+          "state": "pending",
+          "x": 144,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 18,
+          "day": 5,
+          "state": "pending",
+          "x": 192,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 19,
+          "day": 6,
+          "state": "pending",
+          "x": 240,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        },
+        {
+          "index": 20,
+          "day": 7,
+          "state": "pending",
+          "x": 288,
+          "y": 96,
+          "width": 48,
+          "height": 48
+        }
+      ]
+    },
+    {
+      "file": "perk-icons.webp",
+      "width": 128,
+      "height": 32,
+      "alpha": true,
+      "bytes": 1978,
+      "sha256": "ba3701581d2c33cac00c9dc170ff5966334c897de957739fafa5db8cacfa5c66",
+      "role": "Reactor Charge perk glyph strip",
+      "cellWidth": 32,
+      "cellHeight": 32,
+      "cells": [
+        {
+          "index": 0,
+          "id": "points-bonus",
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "index": 1,
+          "id": "charged-start",
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "index": 2,
+          "id": "guided-open",
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "index": 3,
+          "id": "timed-surge-2x-60s",
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "All WebP files are RGBA and palette-locked to the six Atom Smash UI colors plus alpha.",
+    "All text remains live DOM; no text is baked into the artwork.",
+    "Character accents appear only via runtime cast art in the reveal-card socket.",
+    "mission-ui-v1 remains the authoritative mission chrome and is not duplicated in this pack.",
+    "Original and Atom-palette generated PNG masters plus prompt records are stored outside public/."
+  ]
+}

@@ -8,6 +8,27 @@
     <link rel="apple-touch-icon" href="./images/icon.png" />
     <meta name="description" content="Drag matching atoms together, charge them up and set off chain reactions. Complete reactor missions and unleash an Atomic Blast in Atom Smash!" />
     <title>Atom Smash!</title>
+    <!-- Shared Snappy Fox Games analytics for this GitHub Pages demo only. -->
+    <script>
+      (function () {
+        if (location.hostname !== "toktics.github.io" ||
+            !/^\/atom-smash(?:\/|$)/.test(location.pathname)) return;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag("js", new Date());
+        window.gtag("config", "G-ZYFY71C33V", {
+          game_id: "atom-smash",
+          build_profile: "standalone",
+          send_page_view: true,
+          allow_google_signals: false,
+          allow_ad_personalization_signals: false
+        });
+        var tag = document.createElement("script");
+        tag.async = true;
+        tag.src = "https://www.googletagmanager.com/gtag/js?id=G-ZYFY71C33V";
+        document.head.appendChild(tag);
+      })();
+    </script>
     <script type="module" crossorigin src="./assets/index-DAffTzj7.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-Bfgic50J.css">
   </head>
